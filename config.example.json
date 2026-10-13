@@ -1,0 +1,20 @@
+{
+  "provider": "ollama",
+  "language": "zh",
+  "ollama_base_url": "http://127.0.0.1:11434",
+  "base_url": "",
+  "api_key": "",
+  "model": "",
+  "vision_model": "",
+  "temperature": 0.2,
+  "reasoning_effort": "none",
+  "permission_mode": "ask_risky",
+  "workspace": "workspace",
+  "max_steps": 30,
+  "model_timeout": 300,
+  "computer_use": {"enabled": true},
+  "browser": {"profile": "data/browser_profile"},
+  "relay": {"enabled": false, "host": "127.0.0.1", "port": 8765, "auth_token": ""},
+  "main_agent_model": "",
+  "reasoning_model": ""
+}
